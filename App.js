@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View, StyleSheet, Text, ImageBackground, TouchableOpacity } from 'react-native'
 import Modal from './Modal'
 
-import Inicio from '../../../assets/images/t.png'
+import Inicio from './assets/t.png'
 
 const App = () => {
   const [modal, setModal] = useState(false)
